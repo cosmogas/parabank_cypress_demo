@@ -1,0 +1,10 @@
+{
+  "name": "cypress_project",
+  "version": "1.0.0",
+  "devDependencies": {
+    "axe-core": "^4.10.3",
+    "cypress": "^14.5.3",
+    "cypress-axe": "^1.6.0",
+    "typescript": "^5.9.2"
+  }
+}
