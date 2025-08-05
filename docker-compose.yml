@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cypress:
+    build: .
+    container_name: parabank-cypress
+    volumes:
+      - .:/e2e
+    environment:
+      - CYPRESS_baseUrl=https://parabank.parasoft.com/parabank
+    stdin_open: true
+    tty: true
